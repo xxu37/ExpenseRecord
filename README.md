@@ -40,7 +40,8 @@ THEN the page no longer shows the deleted expense.
 - backend test
     Run `dotnet test` under root catalogue and view test result
 - frontend test
-    Go to the catalogue ExpenseRecord/ClientApp, and run `ng test`
+    Go to the catalogue ExpenseRecord/ClientApp, and run `ng test`  
+    If there is no 'ng' command, please install it with: `npm install -g @angular/cli`  
  
 # Tips - how to create angular conponent
 - Go to the catalogue ExpenseRecord/ClientApp
