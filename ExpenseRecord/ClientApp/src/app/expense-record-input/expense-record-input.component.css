@@ -1,0 +1,32 @@
+.example-form {
+    width: 100%;
+    position: relative;
+    top: 75px;
+    left: -140px;
+  }
+  
+/* .example-full-width {
+    width: 100%;
+} */
+
+.inputgroup{
+    margin: 20px;
+}
+
+.mat-form-field{
+    margin: 20px;
+}
+ 
+.input-label{
+    margin-right: 5px;
+}
+
+.create-button{
+    height: 40px;
+    background-color: cornflowerblue;
+    border-radius: 3%;
+    color: aliceblue;
+    border-color: cornflowerblue;
+    position: relative;
+    left: 210px;
+}

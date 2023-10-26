@@ -1,0 +1,19 @@
+.outer{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    height: 700px;
+    width: 50%;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.title{
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    font-size: 25px;
+    color: cornflowerblue;
+    font-weight: 500;
+}

@@ -1,0 +1,35 @@
+<!-- <div class="create-form">
+    <input type="text" >
+</div> -->
+<div class="example-form">
+    <div class="inputgroup">
+        <label class="input-label">Description: </label>
+        <input type="text" placeholder="Buy clothes" [(ngModel)] = "record.description">
+        <label class="input-label">Type: </label>
+        <input type="text" placeholder="Shopping" [(ngModel)] = "record.type">
+    </div>
+    <div class="inputgroup">
+        <label class="input-label">Amount: </label>
+        <input type="text" placeholder="30" [(ngModel)] = "record.amount">
+        <label class="input-label">Date: </label>
+        <input type="text" placeholder="20220103" [(ngModel)] = "record.expenseDate">
+    </div>
+    <div>
+        <button mat-flat-button color="primary" class="create-button" (click)="saveItem()">Create Record</button>
+    </div>
+</div>
+
+<!-- <form class="example-form">
+    <div class="input-group">
+        <mat-form-field>
+            <mat-label>Description</mat-label>
+            <input matInput placeholder="Buy clothes">
+          </mat-form-field>
+      
+          <mat-form-field>
+              <mat-label>Type</mat-label>
+              <input matInput placeholder="Shopping">
+          </mat-form-field>
+    </div>
+</form> -->
+  
