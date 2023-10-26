@@ -15,6 +15,8 @@ export class ExpenseRecordListComponent implements OnInit {
     this.loadData();
   }
 
+  //refresh after listen the event
+
   loadData() {
     this.expenseRecordService.getAllExpenseRecord().subscribe(
       res => {
